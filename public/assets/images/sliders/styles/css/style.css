@@ -1,0 +1,106 @@
+.carousel-item{
+    height: 32rem;
+    width: 70rem;
+}
+/* Custom styles for the footer */
+footer{
+    background-color: #333;
+    color: #fff;
+  }
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.social-icons a:hover {
+  color: #ffc107;
+}
+/* Packages Cards */
+/* Add custom styling for the new features */
+.card-price {
+  font-size: 1.2rem;
+  color: #f39c12; /* Adjust color as needed */
+  margin-bottom: 5px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.user-feedback {
+  margin-top: 10px;
+}
+
+.rating {
+  font-size: 1.2rem;
+  color: #f39c12; /* Adjust color as needed */
+  margin-right: 5px;
+}
+
+.feedback-count {
+  font-size: 0.9rem;
+  color: #777;
+}
+/* Add hover effect to tour package cards */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS rating */
+.star {
+  font-size: 1.5rem;
+  color: #dcdcdc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star.hover,
+.star:hover {
+  color: #f39c12; /* Adjust color as needed */
+}
+
+ /* Custom CSS for hiding the slider on small screens */
+ @media (max-width: 768px) {
+  #carouselExampleControls {
+      display: none;
+  }
+}
+
+
+/* Profile Responsiveness  */
+
+/* @media (max-width: 767px) {
+  #profile {
+    margin-left: auto; /* Center the dropdown on small screens */
+    /* border-radius: 60%; */
+  /* } */ 
+
+  /* .dropdown-menu { */
+    /* left: auto !important; Override default left alignment */
+    /* right: 0; Position dropdown at the right side */
+  /* } */
+/* Adjust search bar width and profile icon size for medium screens */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form-control {
+    width: auto;
+    flex: 1;
+    max-width: 150px;
+  }
+
+  .bi-person-circle {
+    font-size: 1.25rem;
+    margin-left: 10px;
+  }
+}
